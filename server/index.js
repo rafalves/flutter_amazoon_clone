@@ -12,7 +12,7 @@ const userRouter = require("./routes/user");
 //INIT
 const PORT = 3000;
 const app = express();
-const DB = "mongodb+srv://rafael:rafael89@cluster0.jtlknch.mongodb.net/?retryWrites=true&w=majority";
+const DB = "mongodb+srv://####server name here";
 
 // middleware
 app.use(express.json());
